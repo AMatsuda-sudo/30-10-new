@@ -1,0 +1,14 @@
+{
+  "name": "05-modulos-externos",
+  "version": "1.0.0",
+  "description": "Aula de Nodejs no Senac largo treze",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matsuda",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
