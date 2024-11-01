@@ -32,6 +32,9 @@ rl.question(chalk.yellow(`Digite a sua primeira nota: `),
                 if (nota >=7) {
                     console.log(chalk.green(`Parabéns, sua média foi de ${media.toFixed(2)}`))
                 }
+                else if (nota >= 5 && nota < 7) {
+                    console.log(chalk.yellow(`Sua média foi de ${media.toFixed(2)}`))
+                }
                 else {
                     console.log(chalk.red(`Que pena, sua média foi de ${media.toFixed(2)}`))
                 }
