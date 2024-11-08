@@ -1,0 +1,24 @@
+<h1>Ola Handlebars!</h1>
+
+<h1>
+    Ola {{user.name}} {{user.surname}} {{user.age}}.
+</h1>
+
+{{#if approved}}
+<p>
+    Parabens, o seu cadastro foi aprovado
+</p>
+
+{{else}}
+<p>
+    Lamento, o seu cadastro foi reprovado
+</p>
+{{/if}}
+
+
+
+{{#if auth}}
+<p>
+    Você esta autenticado no sistema, <a href="/dashboard">clique aqui</a> para acessar a área de membros VIP
+</p>
+{{/if}}
