@@ -1,0 +1,40 @@
+<div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput" value="{{this.game_name}}" placeholder="First Name" name="game_name">
+      <label for="floatingInput">Nome do Jogo</label>
+
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="date" class="form-control" id="floatingInput" value="{{this.data_lancamento}}" placeholder="Last Name" name="data_lancamento">
+      <label for="floatingInput">Data</label>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="floatingInput" value="{{this.genero}}" placeholder="email@email.com" name="genero">
+      <label for="floatingInput">Gênero</label>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput" value="{{this.plataforma}}" placeholder="Phone" name="plataforma">
+      <label for="floatingInput">Plataforma</label>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput" value="{{this.nota}}" placeholder="nota" name="nota">
+      <label for="floatingInput">Nota</label>
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-floating mb-3">
+      <textarea class="form-control" placeholder="Leave a comment here" id="comments" name="comments" style="height: 200px">{{this.comments}}</textarea>
+      <label for="comments">Comentário</label>
+    </div>
+  </div>
+  <div class="col-12 d-grid">
+    <button class="btn btn-primary" type="submit">Enviar</button>
+  </div>
